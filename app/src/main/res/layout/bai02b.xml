@@ -68,6 +68,8 @@
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:text="USB Bluetooth Music Receiver HJX-001- Biến loa thường thành loa bluetooth"
+        android:textColor="#000000"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
@@ -79,6 +81,7 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="Cực kỳ hài lòng"
+        android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view3"
@@ -114,6 +117,19 @@
         app:layout_constraintEnd_toEndOf="@+id/view3"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/view3" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="282dp"
+        android:layout_height="252dp"
+        android:layout_marginBottom="12dp"
+        android:background="#DCDBDB"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
